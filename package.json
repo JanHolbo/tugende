@@ -1,0 +1,18 @@
+{
+  "name": "tugende-project",
+  "version": "0.0.1",
+  "description": "A simple To-Do app developing and using a new frontend framework of the same name - Work in Progress!! It follows the Build a Frontend Web Framework (From Scratch) by Angel Sola Orbaiceta, published 2024 by Manning (https://www.manning.com/books/build-a-frontend-web-framework-from-scratch)",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "serve:examples": "npx http-server . -o ./examples/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["frontend", "framework"],
+  "author": "Jan Holbo Rasmussen <jan@kaddu.dk> (https://j-cave.dk/)",
+  "license": "ISC",
+  "workspaces": [
+    "packages/runtime",
+    "packages/compiler"
+  ]
+}
